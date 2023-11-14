@@ -31,6 +31,9 @@
 // * git push origin <branch-name> - Pushes commits to the branch on GitHub
 // * git pull origin <branch-name> - Pulls commits from the branch on GitHub
 
+console.log("Hello World!");
+console.log("Good afternoon!");
+
 // ! GitHub commands
 // * git remote add origin <url> - Sets the url of the repo
 // * git remote -v - Shows a list of remotes
