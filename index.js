@@ -42,3 +42,5 @@ const greeting = "Hello World";
 console.log(greeting);
 
 // this is a comment after deleting the new-branch
+
+console.log("Done adding js");
