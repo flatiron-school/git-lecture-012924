@@ -37,3 +37,6 @@ console.log("Good afternoon!");
 // ! GitHub commands
 // * git remote add origin <url> - Sets the url of the repo
 // * git remote -v - Shows a list of remotes
+
+const greeting = "Hello World";
+console.log(greeting);
