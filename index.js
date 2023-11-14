@@ -40,3 +40,5 @@ console.log("Good afternoon!");
 
 const greeting = "Hello World";
 console.log(greeting);
+
+// this is a comment after deleting the new-branch
