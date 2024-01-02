@@ -44,3 +44,8 @@ console.log(greeting);
 // this is a comment after deleting the new-branch
 
 console.log("Done adding js");
+
+let signInFrom = document.querySelectorAll("form")[0];
+signInFrom.addEventListener("submit", () => {
+  alert("Successfull Login!");
+});
