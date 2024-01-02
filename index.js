@@ -49,3 +49,7 @@ let signInFrom = document.querySelectorAll("form")[0];
 signInFrom.addEventListener("submit", () => {
   alert("Successfull Login!");
 });
+let signupForm = document.querySelectorAll('form')[1]
+signupForm.addEventListener('submit', () => {
+    alert("Successful SignUp")
+})
