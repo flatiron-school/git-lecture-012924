@@ -45,12 +45,6 @@ console.log(greeting);
 
 console.log("Done adding js");
 
-
-let loginForm = document.querySelectorAll('form')[0]
-loginForm.addEventListener('submit', () => {
-    alert("Successful Login")
-})
-
 let signupForm = document.querySelectorAll('form')[1]
 signupForm.addEventListener('submit', () => {
     alert("Successful SignUp")
