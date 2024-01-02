@@ -4,3 +4,9 @@ html{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+
+.form{
+    font-size: 10px;
+    background-color: grey;
+    text-align: center;
+}
