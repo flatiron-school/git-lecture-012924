@@ -50,8 +50,13 @@ signInFrom.addEventListener("submit", () => {
   alert("Successfull Login!");
   console.log("Successfull Login!");
 });
-let signupForm = document.querySelectorAll('form')[1]
-signupForm.addEventListener('submit', () => {
-    alert("Successful SignUp");
-    console.log("Successful SignUp");
-})
+let signupForm = document.querySelectorAll("form")[1];
+signupForm.addEventListener("submit", () => {
+  alert("Successful SignUp");
+});
+
+let button = document.createElement("button");
+button.textContent = "Click me!";
+
+let body = document.querySelector("body");
+body.append(button);
