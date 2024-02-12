@@ -48,8 +48,10 @@ console.log("Done adding js");
 let signInFrom = document.querySelectorAll("form")[0];
 signInFrom.addEventListener("submit", () => {
   alert("Successfull Login!");
+  console.log("Successfull Login!");
 });
-let signupForm = document.querySelectorAll("form")[1];
-signupForm.addEventListener("submit", () => {
-  alert("Successful SignUp");
-});
+let signupForm = document.querySelectorAll('form')[1]
+signupForm.addEventListener('submit', () => {
+    alert("Successful SignUp");
+    console.log("Successful SignUp");
+})
