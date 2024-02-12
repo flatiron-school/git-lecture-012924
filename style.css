@@ -9,4 +9,6 @@ html{
     font-size: 10px;
     background-color: grey;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
