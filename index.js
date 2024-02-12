@@ -38,7 +38,7 @@ console.log("Good afternoon!");
 // * git remote add origin <url> - Sets the url of the repo
 // * git remote -v - Shows a list of remotes
 
-const greeting = "Hello World";
+const greeting = "Good morning";
 console.log(greeting);
 
 // this is a comment after deleting the new-branch
@@ -49,7 +49,7 @@ let signInFrom = document.querySelectorAll("form")[0];
 signInFrom.addEventListener("submit", () => {
   alert("Successfull Login!");
 });
-let signupForm = document.querySelectorAll('form')[1]
-signupForm.addEventListener('submit', () => {
-    alert("Successful SignUp")
-})
+let signupForm = document.querySelectorAll("form")[1];
+signupForm.addEventListener("submit", () => {
+  alert("Successful SignUp");
+});
