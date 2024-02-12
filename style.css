@@ -5,8 +5,10 @@ html{
     font-size: 16px;
 }
 
-.form{
+form{
     font-size: 10px;
     background-color: grey;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
